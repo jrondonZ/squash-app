@@ -1,0 +1,28 @@
+# Rails
+/.bundle
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/storage/*
+!/storage/.keep
+/tmp/pids/*
+!/tmp/pids/.keep
+/db/*.sqlite3
+/db/*.sqlite3-*
+
+# Client
+/client/node_modules
+/client/dist
+/client/screenshots
+/client/.vite
+
+# The client builds into public/assets; the source of truth is client/.
+/public/assets
+/public/index.html
+
+# Editors and OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
